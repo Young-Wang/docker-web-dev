@@ -3,9 +3,10 @@ version: "3"
 services:
   web:
     build: .
+    image: docker-web-dev
     ports:
       - "3000:3000"
     volumes:
-      - "/Users/younwang/Desktop/Cache/react/my-project:/workspace"
+      - "/Users/younwang/Documents/workspace/tencentcloud:/workspace"
     stdin_open: true
     tty: true
