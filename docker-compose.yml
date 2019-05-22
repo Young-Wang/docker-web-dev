@@ -1,12 +1,14 @@
 version: "3"
 
 services:
-  web:
+  web-dev:
     build: .
     image: docker-web-dev
     ports:
+      # "local port:web server port running in docker container"
       - "3000:3000"
     volumes:
+      # "local work directory:docker work directory"
       - "/Users/younwang/Documents/workspace/tencentcloud:/workspace"
     stdin_open: true
     tty: true
