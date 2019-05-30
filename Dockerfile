@@ -8,6 +8,7 @@ RUN true \
 # set china debian mirrors registry
 && sed -i 's/deb.debian.org/mirrors.ustc.edu.cn/g' /etc/apt/sources.list \
 && sed -i 's/security.debian.org/mirrors.ustc.edu.cn/g' /etc/apt/sources.list \
+# && sed -i "s@http://deb.debian.org@http://mirrors.aliyun.com@g" /etc/apt/sources.list \ 
 # install vim, git
 && apt-get update \
 && apt-get install -y vim git \

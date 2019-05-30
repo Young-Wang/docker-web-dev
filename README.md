@@ -6,12 +6,12 @@
 
 **1**. **安装 Git、Docker、Docker Compose**
 
-请参考 [Git 安装教程](https://git-scm.com/book/zh/v1/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git)、[Docker 安装教程](https://docs.docker.com/v17.12/install/#time-based-release-schedule)、[Docker Compose 安装教程](https://docs.docker.com/compose/install/)
+请参考 [Git 安装教程](https://git-scm.com/book/zh/v1/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git)、[Docker 安装教程](https://docs.docker.com/v17.12/install/)、[Docker Compose 安装教程](https://docs.docker.com/compose/install/)
 
 **2.** **获取 Docker 配置文件**
 
 ```
-clone git@github.com:Young-Wang/docker-web-dev.git
+git clone git@github.com:Young-Wang/docker-web-dev.git
 
 cd docker-web-dev
 ```
