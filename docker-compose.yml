@@ -7,8 +7,9 @@ services:
     ports:
       # "local port:web server port running in docker container"
       - "3000:3000"
+      - "8080:8080"
     volumes:
       # "local work directory:docker work directory"
-      - "/Users/younwang/Documents/workspace/tencentcloud:/workspace"
+      - "/Users/younwang/Documents/workspace:/workspace"
     stdin_open: true
     tty: true
